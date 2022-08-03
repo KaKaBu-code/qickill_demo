@@ -154,7 +154,7 @@ public final class CookieUtil {
                     cookie.setDomain(domainName);
                 }
             }
-            cookie.setPath("/");
+            cookie.setPath("/");// 可能有点问题把。
             response.addCookie(cookie);
         } catch (Exception e) {
             e.printStackTrace();
